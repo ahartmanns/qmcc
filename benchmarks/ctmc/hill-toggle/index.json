@@ -19,7 +19,7 @@
 	],
 	"submitter": "Michaela Klauck <klauck@depend.uni-saarland.de>",
 	"source": "https://doi.org/10.1038/35002131",
-	"description": "The toggle switch is a gene regulatory network, that models the interaction of two proteins. Protein 1 (`p1´) represses the expression of protein 2 (`p2´) and vice versa, leading to a bimodal steady-state distribution and a transient switching behavior.",
+	"description": "The toggle switch is a gene regulatory network, that models the interaction of two proteins. Protein 1 (`p1´) represses the expression of protein 2 (`p2´) and vice versa, leading to a bimodal steady-state distribution and a transient switching behavior. See [1] for more information.",
 	"references": [
 		"https://www.csb.pitt.edu/BBSI/2005/jc_talk/erramilli.pdf"
 	],
