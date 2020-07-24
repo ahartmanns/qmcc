@@ -25,18 +25,18 @@
 	"properties": [
 		{
 			"name": "RareEvent1",
-			"description": "The probability to reach a concentration of p53 greater than 120 within <= 5 steps",
-			"type": "prob-reach-step-bounded"
+			"description": "The probability to reach a concentration of p53 greater than 120 within <= 5 time units",
+			"type": "prob-reach-time-bounded"
 		},
 		{
 			"name": "RareEvent2",
-			"description": "The probability to reach a concentration of 0 for Mdm2 within <= 100 steps",
-			"type": "prob-reach-step-bounded"
+			"description": "The probability to reach a concentration of 0 for Mdm2 within <= 100 time units",
+			"type": "prob-reach-time-bounded"
 		},
 		{
 			"name": "RareEvent3",
-			"description": "The probability to reach a concentration of p53, pMdm2 and Mdm2 >150 within <= 100 steps",
-			"type": "prob-reach-step-bounded"
+			"description": "The probability to reach a concentration of p53, pMdm2 and Mdm2 >150 within <= 100 time units",
+			"type": "prob-reach-time-bounded"
 		},
 		{
 			"name": "Steady1",
