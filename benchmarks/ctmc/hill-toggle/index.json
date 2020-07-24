@@ -19,7 +19,7 @@
 	],
 	"submitter": "Michaela Klauck <klauck@depend.uni-saarland.de>",
 	"source": "https://doi.org/10.1038/35002131",
-	"description": "The toggle switch is a gene regulatory network, that models the interaction of two proteins. Protein 1 (`p1´) represses the expression of protein 2 (`p2´) and vice versa, leading to a bimodal steady-state distribution and a transient switching behavior.",
+	"description": "The toggle switch is a gene regulatory network, that models the interaction of two proteins. Protein 1 (`p1´) represses the expression of protein 2 (`p2´) and vice versa, leading to a bimodal steady-state distribution and a transient switching behavior. See [1] for more information.",
 	"references": [
 		"https://www.csb.pitt.edu/BBSI/2005/jc_talk/erramilli.pdf"
 	],
@@ -28,13 +28,13 @@
 	"properties": [
 		{
 			"name": "Switching",
-			"description": "probability of protein 2 concentration being greater 10 after <= 10 steps",
-			"type": "prob-reach-step-bounded"
+			"description": "Whether the probability of protein 2 concentration being greater 10 after <= 10 time units is larger than 5e-08",
+			"type": "prob-reach-time-bounded"
 		},
 		{
 			"name": "RareEvent",
-			"description": "probability of protein 1 and 2 concentration being greater 5 after <= 10 steps",
-			"type": "prob-reach-step-bounded"
+			"description": "Whether the probability of protein 1 and 2 concentration being greater 5 after <= 10 time units is larger than 1e-33",
+			"type": "prob-reach-time-bounded"
 		}
 	],
 	"files": [
