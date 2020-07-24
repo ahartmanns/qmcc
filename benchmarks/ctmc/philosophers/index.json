@@ -14,10 +14,10 @@
 	],
 	"author": "GreatSPN <greatspn@di.unito.it>",
 	"submitter": "Tim Quatmann <tim.quatmann@cs.rwth-aachen.de>",
-	"source": "https://doi.org/10.1007/BF00289519",
-	"description": "This model is a variant of the classical dining Philosophers problem. There are `N´ philosophers that share `N´ forks. Each philosopher is either thinking or eating. Eating requires two forks. If only the first fork is available, a philosopher graps the first fork and waits for the second one to become free. This eventually results in a deadlock in which all philosophers wait for the second fork to become free. This model is accompanied by GreatSPN [1]",
+	"source": "https://doi.org/10.1007/978-3-319-30599-8_9",
+	"description": "This model is a variant of the classical dining Philosophers problem. There are `N´ philosophers that share `N´ forks. Each philosopher is either thinking or eating. Eating requires two forks. If only the first fork is available, a philosopher graps the first fork and waits for the second one to become free. This eventually results in a deadlock in which all philosophers wait for the second fork to become free. This model is accompanied by GreatSPN [0]. See [1] for more information.",
 	"references": [
-		"https://doi.org/10.1007/978-3-319-30599-8_9"
+		"https://doi.org/10.1007/BF00289519"
 	],
 	"notes": "small symbolic representation",
 	"parameters": [
