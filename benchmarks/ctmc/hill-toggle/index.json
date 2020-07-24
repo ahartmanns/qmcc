@@ -28,12 +28,12 @@
 	"properties": [
 		{
 			"name": "Switching",
-			"description": "Whether the probability of protein 2 concentration being greater 10 after <= 10 steps is larger than 5e-08",
+			"description": "Whether the probability of protein 2 concentration being greater 10 after <= 10 time units is larger than 5e-08",
 			"type": "prob-reach-time-bounded"
 		},
 		{
 			"name": "RareEvent",
-			"description": "Whether the probability of protein 1 and 2 concentration being greater 5 after <= 10 steps is larger than 1e-33",
+			"description": "Whether the probability of protein 1 and 2 concentration being greater 5 after <= 10 time units is larger than 1e-33",
 			"type": "prob-reach-time-bounded"
 		}
 	],
