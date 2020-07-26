@@ -179,7 +179,7 @@
 		{
 			"name": "PmaxReachBound",
 			"type": "prob-reach-time-bounded",
-			"description": "The minimum probability to reach the goal state within the TIME-BOUND."
+			"description": "The maximum probability to reach the goal state within the TIME-BOUND."
 		},
 		{
 			"name": "SmaxNotReach",
