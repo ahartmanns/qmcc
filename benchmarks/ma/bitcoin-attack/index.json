@@ -14,9 +14,12 @@
 	],
 	"author": "Arnd Hartmanns <a.hartmanns@utwente.nl>",
 	"submitter": "Arnd Hartmanns <a.hartmanns@utwente.nl>",
-	"source": "https://doi.org/10.1007/978-3-319-77935-5_11",
-	"description": "A Modest MA model to optimise the Andresen attack on Bitcoin as presented in [0]. A malicious mining pool that controls `MALICIOUS´ percent of the global Bitcoin hash rate tries to fork the blockchain (e.g. to double-spend). It succeeds if the length of its own fork is at least the confirmation depth `CD´ and higher than the length of the chain computed by the honest miners.",
+	"source": "https://doi.org/10.4121/uuid:1453a13b-10ae-418f-a1ae-4acf96028118",
+	"description": "A Modest MA model to optimise the Andresen attack on Bitcoin as presented in [1]. A malicious mining pool that controls `MALICIOUS´ percent of the global Bitcoin hash rate tries to fork the blockchain (e.g. to double-spend). It succeeds if the length of its own fork is at least the confirmation depth `CD´ and higher than the length of the chain computed by the honest miners.",
 	"challenge": "optimal strategy over long time bound",
+	"references": [
+		"https://doi.org/10.1007/978-3-319-77935-5_11"
+	],
 	"parameters": [
 		{
 			"name": "MALICIOUS",
