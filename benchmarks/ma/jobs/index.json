@@ -42,7 +42,7 @@
 		},
 		{
 			"name": "avgtime",
-			"description": "The minimal expected time that a job requires to complete (on average).",
+			"description": "The maximal expected time that a job requires to complete (on average).",
 			"type": "exp-reward"
 		},
 		{
