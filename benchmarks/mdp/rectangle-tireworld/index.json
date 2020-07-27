@@ -14,15 +14,12 @@
 	],
 	"author": "Olivier Buffet <olivier.buffet@loria.fr>",
 	"submitter": "Michaela Klauck <klauck@depend.uni-saarland.de>",
-	"source": "http://ippc-2008.loria.fr/wiki/images/0/03/Results.pdf",
+	"source": "http://icaps-conference.org/ipc2008/probabilistic/wiki/index.php/Results.html",
 	"part-of": {
 		"name": "the IPPC 2008 Benchmark Set",
 		"url": "http://ippc-2008.loria.fr/wiki/index.html"
 	},
-	"description": "An IPPC 2008 model [1] of the rectangle tireworld [0]. A car has to move between two of the `xy´ locations. When the car drives a segment of the route, there is the chance of getting a flat tire. But there are no spare tires available. However, the car can still go everywhere but at low probaility.",
-	"references": [
-		"http://icaps-conference.org/ipc2008/probabilistic/wiki/index.php/Results.html"
-	],
+	"description": "An IPPC 2008 model [0] of the rectangle tireworld. A car has to move between two of the `xy´ locations. When the car drives a segment of the route, there is the chance of getting a flat tire. But there are no spare tires available. However, the car can still go everywhere but at low probaility.",
 	"notes": "IPPC 2008 benchmark",
 	"parameters": [
 		{
