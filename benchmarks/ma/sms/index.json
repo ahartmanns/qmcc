@@ -19,7 +19,7 @@
 		"name": "the Twente Arberretum",
 		"url": "https://dftbenchmarks.utwente.nl/"
 	},
-	"description": "Fault tree model of a spread mooring system under extreme environmental conditions, for different tanker-buoy configurations of anchors and buoys available in the Marmara Sea near Yarimca. The failures rates provided in the models correspond to the outcomes of equation (13) in the [0], converting the fuzzy values into one crisp value. The original model was translated by the DFTRES tool [1] using the DFTCalc tool [2]. Note that the construction by DFTCalc introduces spurious nondeterminism, while the quotient of this model under weak bisimulation is a CTMC (i.e., has no nondeterminism).",
+	"description": "Fault tree model of a spread mooring system under extreme environmental conditions, for different tanker-buoy configurations of anchors and buoys available in the Marmara Sea near Yarimca. The failures rates provided in the models correspond to the outcomes of equation (13) in [0], converting the fuzzy values into one crisp value. The original model was translated by the DFTRES tool [1] using the DFTCalc tool [2]. Note that the construction by DFTCalc introduces spurious nondeterminism, while the quotient of this model under weak bisimulation is a CTMC (i.e., has no nondeterminism).",
 	"challenge": "small weak bisimulation quotient",
 	"references": [
 		"https://github.com/utwente-fmt/DFTRES",
