@@ -12,17 +12,17 @@
 			"notes": "Initial version."
 		}
 	],
-	"author": "Enno Ruijters <e.j.j.ruijters@utwente.nl>",
+	"author": "Sebastian Junges <sebastian.junges@cs.rwth-aachen.de>",
 	"submitter": "Enno Ruijters <e.j.j.ruijters@utwente.nl>",
-	"source": "https://elibrary.gsfc.nasa.gov/_assets/doclibBidder/tech_docs/25.%20NASA_Fault_Tree_Handbook_with_Aerospace_Applications%20-%20Copy.pdf",
+	"source": "https://doi.org/10.1007/s00165-016-0412-0",
 	"part-of": {
 		"name": "the Twente Arberretum",
 		"url": "https://dftbenchmarks.utwente.nl/"
 	},
-	"description": "The hypothetical example computer system (HECS) is a dynamic fault tree modelling a computer system with redundant processors, memory modules, and connecting buses, and non-redundant operator console, operator, and software.  It is one of the classic example from the \"Fault tree handbook\" by NASA [0]. Variations of the form `hecs.N-k´ are obtained by replicating the system `N´ times, of which `k´ replications must be functional to avoid system failures (as described in [1]). Repairable versions were introduced in [2].  The original model was translated by the DFTRES tool [3] using the DFTCalc tool [4]. Note that the construction by DFTCalc introduces spurious nondeterminism, while the quotient of this model under weak bisimulation is a CTMC (i.e., has no nondeterminism).",
+	"description": "The hypothetical example computer system (HECS) is a dynamic fault tree modelling a computer system with redundant processors, memory modules, and connecting buses, and non-redundant operator console, operator, and software.  It is one of the classic example from the \"Fault tree handbook\" by NASA [1]. Variations of the form `hecs.N-k´ are obtained by replicating the system `N´ times, of which `k´ replications must be functional to avoid system failures (as described in [0]). Repairable versions were introduced in [2].  The original model was translated by the DFTRES tool [3] using the DFTCalc tool [4]. Note that the construction by DFTCalc introduces spurious nondeterminism, while the quotient of this model under weak bisimulation is a CTMC (i.e., has no nondeterminism).",
 	"challenge": "rare event, small weak bisimulation quotient",
 	"references": [
-		"https://doi.org/10.1007/s00165-016-0412-0",
+		"http://www.mwftr.com/CS2/Fault%20Tree%20Handbook_NASA.pdf",
 		"https://doi.org/10.1007/978-3-319-66266-4_2",
 		"https://github.com/utwente-fmt/DFTRES",
 		"https://research.utwente.nl/en/publications/dftcalc-a-tool-for-efficient-fault-tree-analysis-extended-version"
