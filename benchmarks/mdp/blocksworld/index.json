@@ -12,16 +12,16 @@
 			"notes": "Initial version."
 		}
 	],
-	"author": "Marcel Steinmetz <steinmetz@cs.uni-saarland.de>",
+	"author": "Olivier Buffet <olivier.buffet@loria.fr>",
 	"submitter": "Michaela Klauck <klauck@depend.uni-saarland.de>",
-	"source": "https://doi.org/10.1016/0004-3702(92)90028-V",
+	"source": "http://icaps-conference.org/ipc2008/probabilistic/wiki/index.php/Results.html",
 	"part-of": {
 		"name": "the IPPC 2008 Benchmark Set",
 		"url": "http://ippc-2008.loria.fr/wiki/index.html"
 	},
-	"description": "An IPPC 2008 [1] model of the blocks world. A set of `n´ wooden blocks is sitting on a table. Several vertical stacks should be build but only one block which does not have a block on top can be moved at a time.",
+	"description": "An IPPC 2008 [0] model of the blocks world [1]. A set of `n´ wooden blocks is sitting on a table. Several vertical stacks should be build but only one block which does not have a block on top can be moved at a time.",
 	"references": [
-		"http://icaps-conference.org/ipc2008/probabilistic/wiki/index.php/Results.html"
+		"https://doi.org/10.1016/0004-3702(92)90028-V"
 	],
 	"notes": "IPPC 2008 benchmark",
 	"parameters": [
