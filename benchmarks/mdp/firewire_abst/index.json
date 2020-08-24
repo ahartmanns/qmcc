@@ -45,7 +45,7 @@
 		},
 		{
 			"name": "rounds",
-			"description": "The maximum expected rounds to elect a leader.",
+			"description": "The minimal expected rounds to elect a leader.",
 			"type": "exp-reward"
 		},
 		{
