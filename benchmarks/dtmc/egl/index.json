@@ -13,20 +13,20 @@
 		}
 	],
 	"author": [
-		"Shimon Even <even@cs.technion.ac.il >",
-		"Oded Goldreich <oded.goldreich@weizman.ac.il>",
-		"Abraham Lempel <lempel@cs.technion.ac.il>"
+		"Gethin Norman <gethin.norman@glasgow.ac.uk>",
+		"Vitaly Shmatikov <shmat@cs.cornell.edu>"
 	],
 	"submitter": "Michaela Klauck <klauck@depend.uni-saarland.de>",
-	"source": "https://doi.org/10.1145/3812.3818",
+	"source": "https://doi.org/10.1007/978-3-540-40981-6_9",
 	"part-of": {
 		"name": "the PRISM Benchmark Suite",
 		"url": "http://www.prismmodelchecker.org/benchmarks/"
 	},
-	"description": "This is a PRISM case study [1]. Fair exchange is the problem of exchanging data in a way that guarantees that either all participants obtain what they want, or none do. Contract signing is a particular form of fair exchange, in which the parties exchange commitments to a contract. Commitment is often identified with the party's digital signature on the contract. In the EGL protocol, each party starts by generating a sequence of `N´ pairs of secrets and revealing the encryptions of the contract under each secret. A party is considered committed if the opponent knows both secrets in at least one pair. In the first phase, the parties use oblivious transfer to probabilistically reveal one secret from each pair. In the second phase, they release all secrets bit by bit, where each secret has `L´ bits. See [2] for more details",
+	"description": "This is a PRISM case study [1]. Fair exchange is the problem of exchanging data in a way that guarantees that either all participants obtain what they want, or none do. Contract signing is a particular form of fair exchange, in which the parties exchange commitments to a contract. Commitment is often identified with the party's digital signature on the contract. In the EGL protocol, each party starts by generating a sequence of `N´ pairs of secrets and revealing the encryptions of the contract under each secret. A party is considered committed if the opponent knows both secrets in at least one pair. In the first phase, the parties use oblivious transfer to probabilistically reveal one secret from each pair. In the second phase, they release all secrets bit by bit, where each secret has `L´ bits. See [2] for more details about the model and [3] for more details about the protocol.",
 	"references": [
 		"https://doi.org/10.1109/QEST.2012.14",
-		"http://www.prismmodelchecker.org/casestudies/contract_egl.php"
+		"http://www.prismmodelchecker.org/casestudies/contract_egl.php",
+		"https://doi.org/10.1145/3812.3818"
 	],
 	"notes": "PRISM benchmark",
 	"parameters": [
@@ -46,12 +46,12 @@
 	"properties": [
 		{
 			"name": "messagesA",
-			"description": "The expected number of messages from B that A needs to knows a pair once B knows a pair.",
+			"description": "The expected number of messages from B that A needs in order to know a pair once B knows a pair.",
 			"type": "exp-reward"
 		},
 		{
 			"name": "messagesB",
-			"description": "The expected number of messages from A that B needs to knows a pair once A knows a pair.",
+			"description": "The expected number of messages from A that B needs in order to know a pair once A knows a pair.",
 			"type": "exp-reward"
 		},
 		{
