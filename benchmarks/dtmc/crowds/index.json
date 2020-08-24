@@ -12,20 +12,18 @@
 			"version": 1
 		}
 	],
-	"author": [
-		"Michael K. Reiter <reiter@research.bell-labs.com>",
-		"Aviel D. Rubin <rubin@research.att.com>"
-	],
+	"author": "Vitaly Shmatikov <shmat@cs.cornell.edu>",
 	"submitter": "Michaela Klauck <klauck@depend.uni-saarland.de>",
-	"source": "https://doi.org/10.1145/290163.290168",
+	"source": "https://doi.org/10.1109/CSFW.2002.1021811",
 	"part-of": {
 		"name": "the PRISM Benchmark Suite",
 		"url": "http://www.prismmodelchecker.org/benchmarks/"
 	},
-	"description": "This PRISM case study [1] provides a mechanism for anonymous Web browsing. The goal is to hide each user's communications by routing them randomly within a group of `N = CrowdSize/(1-badC)´ users, where `CrowdSize´ is the number of honest users and `badC´ the proprotion of corrupt members. With probability `pf´ (forwarding probability), the protocol selects a crowd member at random as the next router in the path, and forwards the message to it, re-encrypted with the appropriate pairwise key. The next router then repeats this step. `TotalRuns´ is the number of different paths to be analyzed. See [2] for more details",
+	"description": "This PRISM case study [1] provides a mechanism for anonymous Web browsing. The goal is to hide each user's communications by routing them randomly within a group of `N = CrowdSize/(1-badC)´ users, where `CrowdSize´ is the number of honest users and `badC´ the proprotion of corrupt members. With probability `pf´ (forwarding probability), the protocol selects a crowd member at random as the next router in the path, and forwards the message to it, re-encrypted with the appropriate pairwise key. The next router then repeats this step. `TotalRuns´ is the number of different paths to be analyzed. See [2] for more details about the model and [3] for more details about the protocol.",
 	"references": [
 		"https://doi.org/10.1109/QEST.2012.14",
-		"http://www.prismmodelchecker.org/casestudies/crowds.php"
+		"http://www.prismmodelchecker.org/casestudies/crowds.php",
+		"https://doi.org/10.1145/290163.290168"
 	],
 	"notes": "PRISM benchmark",
 	"parameters": [
