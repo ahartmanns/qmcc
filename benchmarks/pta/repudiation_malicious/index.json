@@ -13,18 +13,21 @@
 		}
 	],
 	"author": [
-		"Olivier Markowitch <omarkow@ulb.ac.be>",
-		"Yves Roggeman <yrogge@ulb.ac.be>"
+		"Marta Kwiatkowska <Marta.Kwiatkowska@cs.ox.ac.uk>",
+		"Gethin Norman <gethin.norman@glasgow.ac.uk>",
+		"Jeremy Sproston <sproston@di.unito.it>"
 	],
 	"submitter": "Michaela Klauck <klauck@depend.uni-saarland.de>",
-	"source": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.93.9279&rep=rep1&type=pdf",
+	"source": "https://doi.org/10.1007/s10703-012-0177-x",
 	"part-of": {
 		"name": "the PRISM Benchmark Suite",
 		"url": "http://www.prismmodelchecker.org/benchmarks/"
 	},
-	"description": "This PRISM case study [1] describes the non-repudiation protocol with a malicious recipient as in [0].",
+	"description": "This PRISM case study [1] describes the non-repudiation protocol with a malicious recipient as in [2]. See [3] for more details about the model.",
 	"references": [
-		"https://doi.org/10.1109/QEST.2012.14"
+		"https://doi.org/10.1109/QEST.2012.14",
+		"http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.93.9279&rep=rep1&type=pdf",
+		"https://www.prismmodelchecker.org/casestudies/nonrepudiation.php"
 	],
 	"notes": "PRISM benchmark",
 	"parameters": [
