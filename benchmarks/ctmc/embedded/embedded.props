@@ -5,7 +5,7 @@ const double T;
 "actuators": P=? [ !"down" U "fail_actuators" ];
 
 // Probability of actuator failure within T hours
-"actuators_T": P=? [ !"down" U<=(T*3600) "fail_sensors" ];
+"actuators_T": P=? [ !"down" U<=(T*3600) "fail_actuators" ];
 
 // Expected time spent in "danger" by time T (hours)
 "danger_T": R{"danger"}=? [ C<=(T*3600) ];

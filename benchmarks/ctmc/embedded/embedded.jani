@@ -1549,7 +1549,7 @@
                             "op": "¬"
                         },
                         "op": "U",
-                        "right": "fail_sensors",
+                        "right": "fail_actuators",
                         "time-bounds": {
                             "upper": {
                                 "left": "T",

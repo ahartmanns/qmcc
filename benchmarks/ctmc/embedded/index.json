@@ -3,13 +3,18 @@
 	"short": "embedded",
 	"type": "ctmc",
 	"original": "PRISM",
-	"version": 1,
-	"date": "2018-10-11",
+	"version": 2,
+	"date": "2020-07-23",
 	"version-history": [
 		{
 			"date": "2018-10-11",
 			"notes": "Initial version.",
 			"version": 1
+		},
+		{
+			"date": "2020-07-23",
+			"notes": "Corrected actuators_T property.",
+			"version": 2
 		}
 	],
 	"author": [
