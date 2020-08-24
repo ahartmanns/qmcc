@@ -13,19 +13,20 @@
 		}
 	],
 	"author": [
-		"Alon Itai <itai@cs.technion.ac.il>",
-		"Michael Rodeh <rodeh@il.ibm.com>"
+		"Marta Kwiatkowska <Marta.Kwiatkowska@cs.ox.ac.uk>",
+		"Gethin Norman <gethin.norman@glasgow.ac.uk>",
+		"David Parker <d.a.parker@cs.bham.ac.uk>"
 	],
 	"submitter": "Michaela Klauck <klauck@depend.uni-saarland.de>",
-	"source": "https://doi.org/10.1016/0890-5401(90)90004-2",
+	"source": "https://doi.org/10.1109/QEST.2012.14",
 	"part-of": {
 		"name": "the PRISM Benchmark Suite",
 		"url": "http://www.prismmodelchecker.org/benchmarks/"
 	},
-	"description": "This is a PRISM case study [1]. Given a synchronous ring of `N´ processors the protocol manages to elect a leader (a uniquely designated processor) by sending messages around the ring. In each round the IDs of the processors are chosen uniformly from 1 to `K´. The processors then pass their IDs around the ring. If there is a unique ID, then the processor with the maximum unique ID is elected the leader, and otherwise the processors begin a new round. See [2] for more details.",
+	"description": "This is a PRISM case study [0]. Given a synchronous ring of `N´ processors the protocol manages to elect a leader (a uniquely designated processor) by sending messages around the ring. In each round the IDs of the processors are chosen uniformly from 1 to `K´. The processors then pass their IDs around the ring. If there is a unique ID, then the processor with the maximum unique ID is elected the leader, and otherwise the processors begin a new round. See [1] for more details about the model and [2] for more details about the protocol.",
 	"references": [
-		"https://doi.org/10.1109/QEST.2012.14",
-		"http://www.prismmodelchecker.org/casestudies/synchronous_leader.php"
+		"http://www.prismmodelchecker.org/casestudies/synchronous_leader.php",
+		"https://doi.org/10.1016/0890-5401(90)90004-2"
 	],
 	"notes": "PRISM benchmark",
 	"parameters": [
