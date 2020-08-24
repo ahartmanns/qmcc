@@ -12,17 +12,22 @@
 			"version": 1
 		}
 	],
-	"author": "Ted Herman <ted-herman@uiowa.edu>",
+	"author": [
+		"Marta Kwiatkowska <Marta.Kwiatkowska@cs.ox.ac.uk>",
+		"Gethin Norman <gethin.norman@glasgow.ac.uk>",
+		"David Parker <d.a.parker@cs.bham.ac.uk>"
+	],
 	"submitter": "Michaela Klauck <klauck@depend.uni-saarland.de>",
-	"source": "https://doi.org/10.1016/0020-0190(90)90107-9",
+	"source": "https://doi.org/10.1007/s00165-012-0227-6",
 	"part-of": {
 		"name": "the PRISM Benchmark Suite",
 		"url": "http://www.prismmodelchecker.org/benchmarks/"
 	},
-	"description": "This is a PRISM case study [1]. A self-stabilising protocol for a network of `N´ processes (ring of identical processes) is a protocol which, when started from some possibly illegal start configuration, returns to a legal/stable configuration without any outside intervention within some finite number of steps. The stable configurations are those where there is exactly one process designated as privileged (has a token). This privilege should be passed around the ring forever in a fair manner. In Herman's version [0] the protocol operates synchronously, the ring is oriented, the number of processes must be odd and communication is unidirectional in the ring",
+	"description": "This is a PRISM case study [1]. A self-stabilising protocol for a network of `N´ processes (ring of identical processes) is a protocol which, when started from some possibly illegal start configuration, returns to a legal/stable configuration without any outside intervention within some finite number of steps. The stable configurations are those where there is exactly one process designated as privileged (has a token). This privilege should be passed around the ring forever in a fair manner. In Herman's version [3] the protocol operates synchronously, the ring is oriented, the number of processes must be odd and communication is unidirectional in the ring. See [2] for more information.",
 	"references": [
 		"https://doi.org/10.1109/QEST.2012.14",
-		"http://www.prismmodelchecker.org/casestudies/self-stabilisation.php"
+		"http://www.prismmodelchecker.org/casestudies/self-stabilisation.php",
+		"https://doi.org/10.1016/0020-0190(90)90107-9"
 	],
 	"notes": "PRISM benchmark",
 	"parameters": [
