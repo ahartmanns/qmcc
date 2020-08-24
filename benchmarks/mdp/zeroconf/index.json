@@ -13,20 +13,22 @@
 		}
 	],
 	"author": [
-		"Stuart Cheshire <>",
-		"Bernard Aboba <bernarda@microsoft.com>",
-		"Erik Guttman <>"
+		"Marta Kwiatkowska <Marta.Kwiatkowska@cs.ox.ac.uk>",
+		"Gethin Norman <gethin.norman@glasgow.ac.uk>",
+		"David Parker <d.a.parker@cs.bham.ac.uk>",
+		"Jeremy Sproston <sproston@di.unito.it>"
 	],
 	"submitter": "Michaela Klauck <klauck@depend.uni-saarland.de>",
-	"source": "https://www.rfc-editor.org/info/rfc3927",
+	"source": "https://doi.org/10.1007/s10703-006-0005-2",
 	"part-of": {
 		"name": "the PRISM Benchmark Suite",
 		"url": "http://www.prismmodelchecker.org/benchmarks/"
 	},
-	"description": "This is a PRISM case study [1]. Upon being connected to the network, a device is first required to choose randomly an IP address from a pool of 65024 available addresses. Then the device sends messages to the other devices connected to the network, asking whether any of those devices are currently using the chosen IP address. If no reply is received even after the devices resend such messages three more times, then the device starts using the IP address, initially sending two more messages asserting that the device is claiming the address. `N´ is the number of abstract hosts communicating over the network, `K´ is the number of probes to send and `loss´ means the probability of message loss. See [2] for more details",
+	"description": "This is a PRISM case study [1]. Upon being connected to the network, a device is first required to choose randomly an IP address from a pool of 65024 available addresses. Then the device sends messages to the other devices connected to the network, asking whether any of those devices are currently using the chosen IP address. If no reply is received even after the devices resend such messages three more times, then the device starts using the IP address, initially sending two more messages asserting that the device is claiming the address. `N´ is the number of abstract hosts communicating over the network, `K´ is the number of probes to send and `loss´ means the probability of message loss. See [2] for more details about the model and [3] for more details about the protocol.",
 	"references": [
 		"https://doi.org/10.1109/QEST.2012.14",
-		"http://www.prismmodelchecker.org/casestudies/zeroconf.php"
+		"http://www.prismmodelchecker.org/casestudies/zeroconf.php",
+		"https://www.rfc-editor.org/info/rfc3927"
 	],
 	"notes": "PRISM benchmark",
 	"parameters": [
