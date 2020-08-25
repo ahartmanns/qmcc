@@ -43,7 +43,7 @@
 		},
 		{
 			"name": "pr_underrun_tb",
-			"description": "The maximal probability for a buffer underrun within two time units.",
+			"description": "The minimal probability for a buffer underrun within two time units.",
 			"type": "prob-reach-time-bounded"
 		}
 	],
