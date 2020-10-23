@@ -13,18 +13,19 @@
 		}
 	],
 	"author": [
-		"Daniel Lehmann <lehmann@cs.huji.ac.il>",
-		"Michael O. Rabin <rabin@seas.harvard.edu>"
+		"Marta Kwiatkowska <Marta.Kwiatkowska@cs.ox.ac.uk>",
+		"Gethin Norman <gethin.norman@glasgow.ac.uk>",
+		"David Parker <d.a.parker@cs.bham.ac.uk>"
 	],
 	"submitter": "Michaela Klauck <klauck@depend.uni-saarland.de>",
-	"source": "https://doi.org/10.1145/567532.567547",
+	"source": "https://doi.org/10.1109/QEST.2012.14",
 	"part-of": {
 		"name": "the PRISM Case Studies",
 		"url": "http://www.prismmodelchecker.org/casestudies/"
 	},
-	"description": "This is a PRISM case study [1]. `N´ >= 3 philosophers are sitting around a table and try to pick up one chopstick with their right and one chopstick with their left hand. The problem is that they share each chopstick with the respective neighbor. See [2] for more details",
+	"description": "This is a PRISM case study [0]. `N´ >= 3 philosophers are sitting around a table and try to pick up one chopstick with their right and one chopstick with their left hand. The problem is that they share each chopstick with the respective neighbor. See [1] for more details about the problem and [2] for more details about the model.",
 	"references": [
-		"https://doi.org/10.1109/QEST.2012.14",
+		"https://doi.org/10.1145/567532.567547",
 		"http://www.prismmodelchecker.org/casestudies/phil.php"
 	],
 	"notes": "PRISM case study",
