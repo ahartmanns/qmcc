@@ -12,9 +12,14 @@
 			"version": 1
 		}
 	],
-	"author": "IEEE",
+	"author": [
+		"Marta Kwiatkowska <Marta.Kwiatkowska@cs.ox.ac.uk>",
+		"Gethin Norman <gethin.norman@glasgow.ac.uk>",
+		"Jeremy Sproston <sproston@di.unito.it>",
+		"Fuzhi Wang <F.Wang@cs.bham.ac.uk>"
+	],
 	"submitter": "Michaela Klauck <klauck@depend.uni-saarland.de>",
-	"source": "http://www.cs.bilkent.edu.tr/~tugrul/CS518/Papers/802.3-2000.pdf",
+	"source": "https://doi.org/10.1007/978-3-540-30206-3_21",
 	"part-of": {
 		"name": "the PRISM Benchmark Suite",
 		"url": "http://www.prismmodelchecker.org/benchmarks/"
