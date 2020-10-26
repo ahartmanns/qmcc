@@ -12,16 +12,16 @@
 			"notes": "Initial version."
 		}
 	],
-	"author": "Marcel Steinmetz <steinmetz@cs.uni-saarland.de>",
+	"author": "Blai Bonet <bonet@usb.ve>",
 	"submitter": "Michaela Klauck <klauck@depend.uni-saarland.de>",
-	"source": "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.6.8853&rep=rep1&type=pdf",
+	"source": "http://icaps-conference.org/ipc2008/probabilistic/wiki/index.php/Results.html",
 		"part-of": {
 		"name": "the IPPC 2008 Benchmark Set",
 		"url": "http://ippc-2008.loria.fr/wiki/index.html"
 	},
-	"description": "An IPPC 2008 [1] model of the zenotravel domain described in detail in [2]. This domain has actions to embark and disembark `p´ passengers from one of the `a´ aircraft that can fly at two alternative speeds between `c´ cities. The actions have a probability of failing without causing any effects. So, actions must sometimes be repeated.",
+	"description": "An IPPC 2008 [0] model of the zenotravel domain described in detail in [1] and [2]. This domain has actions to embark and disembark `p´ passengers from one of the `a´ aircraft that can fly at two alternative speeds between `c´ cities. The actions have a probability of failing without causing any effects. So, actions must sometimes be repeated.",
 	"references": [
-		"http://icaps-conference.org/ipc2008/probabilistic/wiki/index.php/Results.html",
+		"http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.6.8853&rep=rep1&type=pdf",
 		"https://www.cs.cmu.edu/afs/cs/project/jair/pub/volume20/long03a-html/node40.html"
 	],
 	"notes": "IPPC 2008 benchmark",
