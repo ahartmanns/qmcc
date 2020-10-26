@@ -546,11 +546,11 @@
 		}
 	],
 	"results": [
-		"results/Storm.1000-1-True-10.2018-10-12.json",
-		"results/Storm.1000-1-True-20.2018-10-12.json",
-		"results/Storm.1000-1-True-30.2018-10-12.json",
-		"results/Storm.1000-1-True-40.2018-10-12.json",
-		"results/Storm.1000-1-True-50.2018-10-12.json",
+		"results/Storm.1000-1-true-10.2018-10-12.json",
+		"results/Storm.1000-1-true-20.2018-10-12.json",
+		"results/Storm.1000-1-true-30.2018-10-12.json",
+		"results/Storm.1000-1-true-40.2018-10-12.json",
+		"results/Storm.1000-1-true-50.2018-10-12.json",
 		{
 			"reference": true,
 			"file": "results/Storm.exact.1000-1-true-10.2018-10-17.json"
