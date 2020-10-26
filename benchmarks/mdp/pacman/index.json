@@ -3,9 +3,14 @@
 	"short": "pacman",
 	"type": "mdp",
 	"original": "PRISM",
-	"version": 1,
-	"date": "2018-10-26",
+	"version": 2,
+	"date": "2020-10-26",
 	"version-history": [
+		{
+			"date": "2020-10-26",
+			"notes": "Fixed a probability in the PRISM file that was slightly off.",
+			"version": 2
+		},
 		{
 			"date": "2018-10-26",
 			"notes": "Initial version.",

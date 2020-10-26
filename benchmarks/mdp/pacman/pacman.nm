@@ -252,7 +252,7 @@ module ghost0
 
   [g0] (xG0=3 & yG0=4 & dG0=0 & yG0<yP & xG0=xP ) -> 0.34: (xG0'=xG0+1) & (dG0'=0) + 0.33: (yG0'=yG0+1) & (dG0'=1) + 0.33: (yG0'=yG0-1) & (dG0'=3);  // ghost is moving to the right -> continues to go right, up or down
   [g0] (xG0=3 & yG0=4 & dG0=1 & yG0<yP & xG0=xP ) -> 0.16: (xG0'=xG0+1) & (dG0'=0) + 0.67: (yG0'=yG0+1) & (dG0'=1) + 0.17: (xG0'=xG0-1) & (dG0'=2);  // ghost is moving up -> continues to go right, up or left
-  [g0] (xG0=3 & yG0=4 & dG0=2 & yG0<yP & xG0=xP ) -> 0.27999999999999997: (yG0'=yG0+1) & (dG0'=1) + 0.43: (xG0'=xG0-1) & (dG0'=2) + 0.29: (yG0'=yG0-1) & (dG0'=3);  // ghost is moving left -> continues to go up, left or down
+  [g0] (xG0=3 & yG0=4 & dG0=2 & yG0<yP & xG0=xP ) -> 0.28: (yG0'=yG0+1) & (dG0'=1) + 0.43: (xG0'=xG0-1) & (dG0'=2) + 0.29: (yG0'=yG0-1) & (dG0'=3);  // ghost is moving left -> continues to go up, left or down
   [g0] (xG0=3 & yG0=4 & dG0=3 & yG0<yP & xG0=xP ) -> 0.34: (xG0'=xG0+1) & (dG0'=0) + 0.33: (xG0'=xG0-1) & (dG0'=2) + 0.33: (yG0'=yG0-1) & (dG0'=3);  // ghost is moving down -> continues to go right, left or down
 
   //- positioning pacman = l
@@ -715,7 +715,7 @@ module ghost1
 
   [g1] (xG1=3 & yG1=4 & dG1=0 & yG1<yP & xG1=xP ) -> 0.34: (xG1'=xG1+1) & (dG1'=0) + 0.33: (yG1'=yG1+1) & (dG1'=1) + 0.33: (yG1'=yG1-1) & (dG1'=3);  // ghost is moving to the right -> continues to go right, up or down
   [g1] (xG1=3 & yG1=4 & dG1=1 & yG1<yP & xG1=xP ) -> 0.16: (xG1'=xG1+1) & (dG1'=0) + 0.67: (yG1'=yG1+1) & (dG1'=1) + 0.17: (xG1'=xG1-1) & (dG1'=2);  // ghost is moving up -> continues to go right, up or left
-  [g1] (xG1=3 & yG1=4 & dG1=2 & yG1<yP & xG1=xP ) -> 0.27999999999999997: (yG1'=yG1+1) & (dG1'=1) + 0.43: (xG1'=xG1-1) & (dG1'=2) + 0.29: (yG1'=yG1-1) & (dG1'=3);  // ghost is moving left -> continues to go up, left or down
+  [g1] (xG1=3 & yG1=4 & dG1=2 & yG1<yP & xG1=xP ) -> 0.28: (yG1'=yG1+1) & (dG1'=1) + 0.43: (xG1'=xG1-1) & (dG1'=2) + 0.29: (yG1'=yG1-1) & (dG1'=3);  // ghost is moving left -> continues to go up, left or down
   [g1] (xG1=3 & yG1=4 & dG1=3 & yG1<yP & xG1=xP ) -> 0.34: (xG1'=xG1+1) & (dG1'=0) + 0.33: (xG1'=xG1-1) & (dG1'=2) + 0.33: (yG1'=yG1-1) & (dG1'=3);  // ghost is moving down -> continues to go right, left or down
 
   //- positioning pacman = l
