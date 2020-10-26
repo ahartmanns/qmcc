@@ -749,14 +749,14 @@
 		}
 	],
 	"results": [
-		"results/Storm.20-2-True.2018-10-12.json",
-		"results/Storm.20-4-True.2018-10-12.json",
-		"results/Storm.20-6-True.2018-10-12.json",
-		"results/Storm.20-8-True.2018-10-12.json",
-		"results/Storm.1000-2-True.2018-10-12.json",
-		"results/Storm.1000-4-True.2018-10-12.json",
-		"results/Storm.1000-6-True.2018-10-12.json",
-		"results/Storm.1000-8-True.2018-10-12.json",
+		"results/Storm.20-2-true.2018-10-12.json",
+		"results/Storm.20-4-true.2018-10-12.json",
+		"results/Storm.20-6-true.2018-10-12.json",
+		"results/Storm.20-8-true.2018-10-12.json",
+		"results/Storm.1000-2-true.2018-10-12.json",
+		"results/Storm.1000-4-true.2018-10-12.json",
+		"results/Storm.1000-6-true.2018-10-12.json",
+		"results/Storm.1000-8-true.2018-10-12.json",
 		{
 			"reference": true,
 			"file": "results/Storm.exact.20-2-true.2018-10-17.json"
