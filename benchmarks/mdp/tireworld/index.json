@@ -12,17 +12,17 @@
 			"notes": "Initial version."
 		}
 	],
-	"author": "Marcel Steinmetz <steinmetz@cs.uni-saarland.de>",
+	"author": "Blai Bonet <bonet@usb.ve>",
 	"submitter": "Michaela Klauck <klauck@depend.uni-saarland.de>",
-	"source": "http://users.cecs.anu.edu.au/~iain/icaps07.pdf",
+	"source": "http://idm-lab.org/wiki/icaps/ipc2006/probabilistic/",
 	"part-of": {
 		"name": "the IPPC 2006 Benchmark Set",
 		"url": "http://idm-lab.org/wiki/icaps/ipc2006/probabilistic/"
 	},
-	"description": "An IPPC 2006 [1] model of the tireworld domain described in detail in [2]. A car has to move between two of the `n´ locations. When the car drives a segment of the route, there is the chance of getting a flat tire. But only in some locations there are spare tires available.",
+	"description": "An IPPC 2006 [0] model of the tireworld domain described in detail in [1] and [2]. A car has to move between two of the `n´ locations. When the car drives a segment of the route, there is the chance of getting a flat tire. But only in some locations there are spare tires available.",
 	"references": [
-		"http://idm-lab.org/wiki/icaps/ipc2006/probabilistic/",
-		"https://www.cs.cmu.edu/afs/cs/project/jair/pub/volume24/younes05a-html/node18.html"
+		"https://www.cs.cmu.edu/afs/cs/project/jair/pub/volume24/younes05a-html/node18.html",
+		"http://users.cecs.anu.edu.au/~iain/icaps07.pdf"
 	],
 	"notes": "IPPC 2006 benchmark",
 	"parameters": [
