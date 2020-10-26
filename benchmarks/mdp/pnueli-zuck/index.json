@@ -13,18 +13,19 @@
 		}
 	],
 	"author": [
-		"Amir Pnueli <amir@cs.nyu.edu>",
-		"Lenore Zuck <zuck@uic.edu>"
+		"Marta Kwiatkowska <Marta.Kwiatkowska@cs.ox.ac.uk>",
+		"Gethin Norman <gethin.norman@glasgow.ac.uk>",
+		"David Parker <d.a.parker@cs.bham.ac.uk>"
 	],
 	"submitter": "Michaela Klauck <klauck@depend.uni-saarland.de>",
-	"source": "https://doi.org/10.1007/BF01843570",
+	"source": "https://doi.org/10.1109/QEST.2012.14",
 	"part-of": {
 		"name": "the PRISM Case Studies",
 		"url": "http://www.prismmodelchecker.org/casestudies/"
 	},
-	"description": "This is a PRISM case study [1]. A mutual exclusion protocol describes a set of `N´ agents trying to access a shared resource, which can only be used by a single agent at once. See [2] for more details.",
+	"description": "This is a PRISM case study [0]. A mutual exclusion protocol describes a set of `N´ agents trying to access a shared resource, which can only be used by a single agent at once. See [1] for more details about the protocol and [2] for more details about the model.",
 	"references": [
-		"https://doi.org/10.1109/QEST.2012.14",
+		"https://doi.org/10.1007/BF01843570",
 		"https://www.prismmodelchecker.org/casestudies/mutual.php"
 	],
 	"notes": "PRISM case study",
