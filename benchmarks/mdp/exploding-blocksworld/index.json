@@ -12,17 +12,16 @@
 			"notes": "Initial version."
 		}
 	],
-	"author": "Marcel Steinmetz <steinmetz@cs.uni-saarland.de>",
+	"author": "Blai Bonet <bonet@usb.ve>",
 	"submitter": "Michaela Klauck <klauck@depend.uni-saarland.de>",
-	"source": "https://ldc.usb.ve/~bonet/ipc5/",
+	"source": "http://icaps-conference.org/ipc2008/probabilistic/wiki/index.php/Results.html",
 	"part-of": {
 		"name": "the IPPC 2008 Benchmark Set",
 		"url": "http://ippc-2008.loria.fr/wiki/index.html"
 	},
-	"description": "An IPPC 2008 [2] model of the blocks world with the modification that blocks can explode with a certain probability when put down and destroy the object beneath the block [1]. The model consists of `N´ blocks and was first introduced at IPPC 5 in 2006 [0].",
+	"description": "An IPPC 2008 [0] model of the blocks world with the modification that blocks can explode with a certain probability when put down and destroy the object beneath the block [1]. The model consists of `N´ blocks.",
 	"references": [
-		"https://www.cs.cmu.edu/afs/cs/project/jair/pub/volume24/younes05a-html/node16.html",
-		"http://icaps-conference.org/ipc2008/probabilistic/wiki/index.php/Results.html"
+		"https://www.cs.cmu.edu/afs/cs/project/jair/pub/volume24/younes05a-html/node16.html"
 	],
 	"notes": "IPPC 2008 benchmark",
 	"parameters": [
