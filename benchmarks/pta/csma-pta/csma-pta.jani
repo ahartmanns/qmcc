@@ -47988,9 +47988,12 @@
                                 "op": "=",
                                 "right": {
                                     "left": {
-                                        "left": 2,
-                                        "op": "pow",
-                                        "right": "cd1"
+                                        "exp": {
+                                            "left": 2,
+                                            "op": "pow",
+                                            "right": "cd1"
+                                        },
+                                        "op": "trc"
                                     },
                                     "op": "*",
                                     "right": 52
@@ -48104,9 +48107,12 @@
                                 "op": "=",
                                 "right": {
                                     "left": {
-                                        "left": 2,
-                                        "op": "pow",
-                                        "right": "cd1"
+                                        "exp": {
+                                            "left": 2,
+                                            "op": "pow",
+                                            "right": "cd1"
+                                        },
+                                        "op": "trc"
                                     },
                                     "op": "*",
                                     "right": 52
@@ -48239,9 +48245,12 @@
                                 "op": "=",
                                 "right": {
                                     "left": {
-                                        "left": 2,
-                                        "op": "pow",
-                                        "right": "cd1"
+                                        "exp": {
+                                            "left": 2,
+                                            "op": "pow",
+                                            "right": "cd1"
+                                        },
+                                        "op": "trc"
                                     },
                                     "op": "*",
                                     "right": 52
@@ -48274,9 +48283,12 @@
                                         "op": "≤",
                                         "right": {
                                             "left": {
-                                                "left": 2,
-                                                "op": "pow",
-                                                "right": "cd1"
+                                                "exp": {
+                                                    "left": 2,
+                                                    "op": "pow",
+                                                    "right": "cd1"
+                                                },
+                                                "op": "trc"
                                             },
                                             "op": "*",
                                             "right": 52
@@ -95693,9 +95705,12 @@
                                 "op": "=",
                                 "right": {
                                     "left": {
-                                        "left": 2,
-                                        "op": "pow",
-                                        "right": "cd2"
+                                        "exp": {
+                                            "left": 2,
+                                            "op": "pow",
+                                            "right": "cd2"
+                                        },
+                                        "op": "trc"
                                     },
                                     "op": "*",
                                     "right": 52
@@ -95809,9 +95824,12 @@
                                 "op": "=",
                                 "right": {
                                     "left": {
-                                        "left": 2,
-                                        "op": "pow",
-                                        "right": "cd2"
+                                        "exp": {
+                                            "left": 2,
+                                            "op": "pow",
+                                            "right": "cd2"
+                                        },
+                                        "op": "trc"
                                     },
                                     "op": "*",
                                     "right": 52
@@ -95944,9 +95962,12 @@
                                 "op": "=",
                                 "right": {
                                     "left": {
-                                        "left": 2,
-                                        "op": "pow",
-                                        "right": "cd2"
+                                        "exp": {
+                                            "left": 2,
+                                            "op": "pow",
+                                            "right": "cd2"
+                                        },
+                                        "op": "trc"
                                     },
                                     "op": "*",
                                     "right": 52
@@ -95979,9 +96000,12 @@
                                         "op": "≤",
                                         "right": {
                                             "left": {
-                                                "left": 2,
-                                                "op": "pow",
-                                                "right": "cd2"
+                                                "exp": {
+                                                    "left": 2,
+                                                    "op": "pow",
+                                                    "right": "cd2"
+                                                },
+                                                "op": "trc"
                                             },
                                             "op": "*",
                                             "right": 52
@@ -96071,9 +96095,12 @@
             "type": "int",
             "value": {
                 "left": {
-                    "left": 2,
-                    "op": "pow",
-                    "right": "K"
+                    "exp": {
+                        "left": 2,
+                        "op": "pow",
+                        "right": "K"
+                    },
+                    "op": "trc"
                 },
                 "op": "-",
                 "right": 1
@@ -96256,13 +96283,13 @@
             "type": "bool"
         },
         {
-            "initial-value": 0.0,
+            "initial-value": 0,
             "name": "time",
             "transient": true,
             "type": "real"
         },
         {
-            "initial-value": 0.0,
+            "initial-value": 0,
             "name": "collisions",
             "transient": true,
             "type": "real"
@@ -96292,12 +96319,12 @@
             }
         },
         {
-            "initial-value": 0.0,
+            "initial-value": 0,
             "name": "y1",
             "type": "clock"
         },
         {
-            "initial-value": 0.0,
+            "initial-value": 0,
             "name": "y2",
             "type": "clock"
         },
@@ -96322,7 +96349,7 @@
             }
         },
         {
-            "initial-value": 0.0,
+            "initial-value": 0,
             "name": "x1",
             "type": "clock"
         },
@@ -96347,7 +96374,7 @@
             }
         },
         {
-            "initial-value": 0.0,
+            "initial-value": 0,
             "name": "x2",
             "type": "clock"
         }
