@@ -1230,9 +1230,12 @@
                                 "op": "=",
                                 "right": {
                                     "left": {
-                                        "left": 2,
-                                        "op": "pow",
-                                        "right": "cd1"
+                                        "exp": {
+                                            "left": 2,
+                                            "op": "pow",
+                                            "right": "cd1"
+                                        },
+                                        "op": "trc"
                                     },
                                     "op": "*",
                                     "right": 52
@@ -1400,9 +1403,12 @@
                                 "op": "=",
                                 "right": {
                                     "left": {
-                                        "left": 2,
-                                        "op": "pow",
-                                        "right": "cd1"
+                                        "exp": {
+                                            "left": 2,
+                                            "op": "pow",
+                                            "right": "cd1"
+                                        },
+                                        "op": "trc"
                                     },
                                     "op": "*",
                                     "right": 52
@@ -1435,9 +1441,12 @@
                                         "op": "≤",
                                         "right": {
                                             "left": {
-                                                "left": 2,
-                                                "op": "pow",
-                                                "right": "cd1"
+                                                "exp": {
+                                                    "left": 2,
+                                                    "op": "pow",
+                                                    "right": "cd1"
+                                                },
+                                                "op": "trc"
                                             },
                                             "op": "*",
                                             "right": 52
@@ -2360,9 +2369,12 @@
                                 "op": "=",
                                 "right": {
                                     "left": {
-                                        "left": 2,
-                                        "op": "pow",
-                                        "right": "cd2"
+                                        "exp": {
+                                            "left": 2,
+                                            "op": "pow",
+                                            "right": "cd2"
+                                        },
+                                        "op": "trc"
                                     },
                                     "op": "*",
                                     "right": 52
@@ -2530,9 +2542,12 @@
                                 "op": "=",
                                 "right": {
                                     "left": {
-                                        "left": 2,
-                                        "op": "pow",
-                                        "right": "cd2"
+                                        "exp": {
+                                            "left": 2,
+                                            "op": "pow",
+                                            "right": "cd2"
+                                        },
+                                        "op": "trc"
                                     },
                                     "op": "*",
                                     "right": 52
@@ -2565,9 +2580,12 @@
                                         "op": "≤",
                                         "right": {
                                             "left": {
-                                                "left": 2,
-                                                "op": "pow",
-                                                "right": "cd2"
+                                                "exp": {
+                                                    "left": 2,
+                                                    "op": "pow",
+                                                    "right": "cd2"
+                                                },
+                                                "op": "trc"
                                             },
                                             "op": "*",
                                             "right": 52
@@ -2822,7 +2840,7 @@
             }
         },
         {
-            "initial-value": 0.0,
+            "initial-value": 0,
             "name": "y",
             "type": "clock"
         },
@@ -2847,7 +2865,7 @@
             }
         },
         {
-            "initial-value": 0.0,
+            "initial-value": 0,
             "name": "x1",
             "type": "clock"
         },
@@ -2872,7 +2890,7 @@
             }
         },
         {
-            "initial-value": 0.0,
+            "initial-value": 0,
             "name": "x2",
             "type": "clock"
         }

@@ -3,13 +3,18 @@
 	"short": "csma-pta",
 	"type": "pta",
 	"original": "PRISM",
-	"version": 1,
-	"date": "2018-10-11",
+	"version": 2,
+	"date": "2021-02-17",
 	"version-history": [
 		{
 			"date": "2018-10-11",
 			"notes": "Initial version.",
 			"version": 1
+		},
+		{
+			"date": "2021-02-17",
+			"notes": "Fixed type error of power expressions in JANI code.",
+			"version": 2
 		}
 	],
 	"author": "IEEE",
@@ -55,7 +60,7 @@
 			],
 			"conversion": {
 				"tool": "Storm-conv",
-				"version": "1.2.4 (dev)",
+				"version": "1.6.4 (dev)",
 				"url": "http://www.stormchecker.org",
 				"command": "storm-conv --prism csma-pta.prism --tojani csma-pta.jani --prop csma-pta.props --globalvars"
 			},
