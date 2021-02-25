@@ -8,7 +8,7 @@
 	"version-history": [
 		{ "version": 1, "date": "2018-10-26", "notes": "Initial version." }
 	],
-	"author": "Enno Ruijters <e.j.j.ruijters@utwente.nl>",
+	"author": "Sebastian Junges <sebastian.junges@cs.rwth-aachen.de>",
 	"submitter": "Enno Ruijters <e.j.j.ruijters@utwente.nl>",
 	"source": "https://doi.org/10.1007/s00165-016-0412-0",
 	"part-of": {
