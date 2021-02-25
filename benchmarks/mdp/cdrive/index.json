@@ -12,7 +12,11 @@
 			"notes": "Initial version."
 		}
 	],
-	"author": "Marcel Steinmetz <steinmetz@cs.uni-saarland.de>",
+	"author": [
+		"Matt Greig",
+		"Robert Givan",
+		"Sungwook Yoon"
+	],
 	"submitter": "Michaela Klauck <klauck@depend.uni-saarland.de>",
 	"source": "http://idm-lab.org/wiki/icaps/ipc2006/probabilistic/",
 	"part-of": {
